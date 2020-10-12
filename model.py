@@ -27,8 +27,8 @@ print()
 for i in range(4):
     corr_x_y = dataframes[i].corr().loc['x', 'y']
     print(f"Dataset {i}: {corr_x_y=:.1f}")
-
 print()
+
 for i in range(4):
     model = LinearRegression()
     x = dataframes[i]["x"].to_numpy().reshape(-1, 1)
