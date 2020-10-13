@@ -2,6 +2,7 @@
 line-length = 79
 
 [tool.nbqa.config]
+flake8 = "setup.cfg"
 isort = "setup.cfg"
 black = "pyproject.toml"
 
