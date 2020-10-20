@@ -1,0 +1,15 @@
+- notebook has no output and no suptitle
+- triangulation is open and has old syntax
+- pre-commit install is fast:
+
+repos:
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 0.3.2
+    hooks:
+    - id: nbqa-black
+    - id: nbqa-flake8
+    - id: nbqa-pyupgrade
+    - id: nbqa-isort
+
+- you have done pre-commit uninstall
+- 01, 02, model, notebook, 04, 05, 06, triangulation, pyproject, pre-commit, 07
