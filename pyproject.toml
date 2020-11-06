@@ -12,5 +12,4 @@ black = 1
 pyupgrade = 1
 
 [tool.nbqa.addopts]
-isort = ["--treat-comment-as-code", "# %%"]
 pyupgrade = ["--py38-plus"]
